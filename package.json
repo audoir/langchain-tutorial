@@ -11,10 +11,14 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "overview": "npx tsx overview.ts"
+    "overview": "npx tsx overview.ts",
+    "real-world-agent": "npx tsx real-world-agent.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^24.10.0"
+  }
 }
